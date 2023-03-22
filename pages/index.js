@@ -11,9 +11,9 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
+        <Header title="Desinic8 Teacher" />
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          Click to <a href="/login.html">Login</a>
         </p>
       </main>
 
