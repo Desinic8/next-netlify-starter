@@ -1,4 +1,8 @@
-HOST=us-east.connect.psdb.cloud
-USERNAME=56y8i56cghatvqogls00
-PASSWORD=************
-DATABASE=desinic8
+<?php
+  $dsn = "mysql:host={$_ENV["HOST"]};dbname={$_ENV["DATABASE"]}";
+  $options = array(
+    PDO::MYSQL_ATTR_SSL_CA => "/etc/ssl/certs/ca-certificates.crt",
+  );
+
+  $pdo = new PDO($dsn, $_ENV["USERNAME"], $_ENV["PASSWORD"], $options);
+?>
