@@ -23,3 +23,8 @@ main {
  color: #444;
  font-weight:500;
 }
+.subtitle {
+ font-size:1.1em;
+ color:#111;
+ font-weight:500;
+}
