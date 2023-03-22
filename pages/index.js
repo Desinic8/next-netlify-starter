@@ -17,11 +17,12 @@ export default function Home() {
       <p className="description">
           Classroom Management in the Works
         </p>
-    </p>
-    <p className="col col-complementary" role="complementary">
-      <p className="subtitle">
+    <p className="subtitle">
           Providing Affordable Classroom Management Tools for Every School
         </p>
+    </p>
+    <p className="col col-complementary" role="complementary">
+      
     </p>  
   </div>   
 </div>
