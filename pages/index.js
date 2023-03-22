@@ -11,7 +11,6 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Desinic8 Teacher" />
         <p className="description">
           Classroom Management in the Works
         </p>
