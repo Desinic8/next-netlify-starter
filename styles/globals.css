@@ -17,3 +17,9 @@ main {
 .container {
   margin:10px;
 }
+
+.description {
+ font-size:0.8em;
+ color: #444;
+ font-weight:500;
+}
