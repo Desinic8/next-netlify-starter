@@ -13,7 +13,7 @@ export default function Home() {
       <main>
         <Header title="Desinic8 Teacher" />
         <p className="description">
-          Click to <a href="/login.html">Login</a>
+          Click to <a href="/login.js">Login</a>
         </p>
       </main>
 
