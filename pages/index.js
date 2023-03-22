@@ -11,29 +11,20 @@ export default function Home() {
       </Head>
 
       <main>
-    <!--========== BOX ICONS ==========-->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 
-<!--========== CSS ==========-->
-        <link rel="stylesheet" href="assets/css/styles.css">
-
-        <title>Responsive sidebar submenus</title>
-    </head>
-    <body>
-        <!--========== HEADER ==========-->
         <header className="header">
             <div class="header__container">
                 
-
                 <a href="#" className="header__logo">YOUR LOGO</a>
     
                 <div className="header__search">
                     <input type="search" placeholder="Search" class="header__input">
-                    <i class='bx bx-search header__icon'></i>
+                    <box-icon name="search"></box-icon>
                 </div>
     
                 <div className="header__toggle">
-                    <i class='bx bx-menu' id="header-toggle"></i>
+                    <box-icon name="menu"></box-icon>
                 </div>
             </div>
         </header>
