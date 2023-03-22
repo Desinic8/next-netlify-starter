@@ -18,12 +18,12 @@ main {
   margin:10px;
 }
 
-.description {
+.subtitle {
  font-size:0.8em;
  color: #444;
  font-weight:500;
 }
-.subtitle {
+.description {
  font-size:1.1em;
  color:#111;
  font-weight:500;
