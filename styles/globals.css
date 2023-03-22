@@ -49,7 +49,7 @@ main {
 /* etc */
 
 .block {
-  max-width: 60em;
+  max-width: 90em;
   margin-right: auto;
   margin-left: auto;
 }
