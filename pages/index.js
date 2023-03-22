@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Next.js Starter!</title>
+        <title>Desinic8 - Providing Affordable Classroom Management Tools</title>
         <link rel="icon" href="/Favicon.png" />
       </Head>
 
