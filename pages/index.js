@@ -22,7 +22,7 @@ export default function Home() {
         </p>
     </p>
     <p className="col col-complementary" role="complementary">
-      
+      <img src="/TeacherConsole.png" alt="Teacher Console Version 1.10" className={styles.banner} />
     </p>  
   </div>   
 </div>
