@@ -11,12 +11,20 @@ export default function Home() {
       </Head>
 
       <main>
-        <p className="description">
+    <div className="block">
+  <div className="layout">
+    <p className="col col-main">
+      <p className="description">
           Classroom Management in the Works
         </p>
-        <p className="subtitle">
+    </p>
+    <p className="col col-complementary" role="complementary">
+      <p className="subtitle">
           Providing Affordable Classroom Management Tools for Every School
         </p>
+    </p>  
+  </div>   
+</div>
       </main>
 
       <Footer />
